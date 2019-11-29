@@ -32,7 +32,8 @@ github_username:  adityasinha379
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
+remote-theme: benbalter/retlab
 
 # Exclude from processing.
 # The following items will not be processed, by default.
