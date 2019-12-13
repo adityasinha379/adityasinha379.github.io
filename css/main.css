@@ -1,0 +1,11 @@
+.container {
+    max-width:730px;
+}
+#name-block {
+    border-bottom: 1px solid #3498db;
+    padding-bottom: 18px;
+}
+.footer {
+  border-top: 1px solid #3498db;
+  text-align: center;
+}
