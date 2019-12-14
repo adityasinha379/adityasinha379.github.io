@@ -5,7 +5,7 @@ title: Aditya Sinha
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 
-	  {% for publication in site.publication %}
-	    <li><span>{{ publication.date | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ post.title }}</a></li>
+	  {% for post in site.publication %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
